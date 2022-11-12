@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="230dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@color/material_dynamic_neutral70"
+        android:text="Войти"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:id="@+id/some_id"
+        android:layout_width="48dp"
+        android:layout_height="24dp"
+        android:gravity="top"
+        android:text="Вход"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/txt_geek"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:id="@+id/som_id"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="Добро пожаловать!"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="26sp"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+    <TextView
+        android:id="@+id/txt_geek"
+        android:layout_marginTop="14dp"
+        android:layout_width="128dp"
+        android:layout_height="24dp"
+        android:gravity="top"
+        android:text="Geektech.org"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vector_1"/>
+
+    <ImageView
+        app:layout_constraintVertical_bias="0.4"
+        android:id="@+id/vector_1"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
