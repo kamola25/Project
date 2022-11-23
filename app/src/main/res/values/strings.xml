@@ -4,4 +4,10 @@
 
 \u00D0\u0092\u00D0\u00BE\u00D0\u00B9\u00D1\u0082\u00D0\u00B8
 </string>
+    <string name="come">Войти</string>
+    <string name="enterText">Введите текст</string>
+    <string name="geek_tech_org">Geektech.org</string>
+    <string name="come2">Вход</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="computer">computer</string>
 </resources>
